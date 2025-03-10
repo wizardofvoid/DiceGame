@@ -1,6 +1,6 @@
 function RollDice(){
-    let dice1 = Math.floor(Math.random()*5)+1;
-    let dice2 = Math.floor(Math.random()*5)+1;
+    let dice1 = Math.floor(Math.random()*6)+1;
+    let dice2 = Math.floor(Math.random()*6)+1;
 
     let image1 = document.querySelector(".img1");
     let image2 = document.querySelector(".img2");
